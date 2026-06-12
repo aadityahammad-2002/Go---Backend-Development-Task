@@ -1,0 +1,13 @@
+version: "1"
+packages:
+  - name: "db"
+    path: "github.com/yourname/user-api/db/sqlc"
+    engine: "mysql"
+    schema:
+      - "../migrations"
+    queries:
+      - "query.sql"
+    emit_json_tags: true
+    emit_prepared_queries: false
+    emit_interface: false
+    emit_empty_slices: true

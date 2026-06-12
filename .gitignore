@@ -1,0 +1,21 @@
+# Binaries
+/user-api
+/*.exe
+/*.dll
+/*.so
+/*.dylib
+
+# Vendor
+/vendor/
+
+# IDE files
+*.iml
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+pkg/mod/
