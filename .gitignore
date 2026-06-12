@@ -19,3 +19,5 @@ Thumbs.db
 
 # Dependency directories
 pkg/mod/
+
+server.exe
