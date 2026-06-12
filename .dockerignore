@@ -1,0 +1,40 @@
+# Git & CI/CD
+.git
+.gitignore
+.github/
+
+# Environment & secrets
+.env
+*.env
+
+# Logs & temp files
+*.log
+*.tmp
+*.out
+
+# Build artifacts & binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.zip
+*.tar
+*.gz
+
+# Node / frontend (if any)
+node_modules/
+dist/
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.swp
+
+# Docker & Compose
+Dockerfile
+docker-compose.yml
+
+# Misc
+README.md
+migrate.zip
